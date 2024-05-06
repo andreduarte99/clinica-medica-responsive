@@ -1,0 +1,7 @@
+.titulo__dia-semana{
+    font-family: var(--fonte-principal);
+    font-weight: 900;
+    font-size: 1em;
+    color: var(--cor-fonte-primaria);
+    padding: 3em 0em 0em 2em;
+}

@@ -1,0 +1,26 @@
+.cabecalho__container{
+    display: flex;
+    gap: 1em;
+    padding: 3em 0em 0em 2em;
+    align-items: center;
+}
+
+.dados__medico{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.titulo__perfil{
+    font-family: var(--fonte-principal);
+    font-weight: 900;
+    font-size: 1.2em;
+    color: var(--cor-fonte-primaria);
+}
+
+.notificacoes__perfil{ 
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 0.9em;
+    color: var(--cor-fonte-secundaria);
+}
