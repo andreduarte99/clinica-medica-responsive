@@ -1,8 +1,10 @@
 @import url("styles/header.css");
 @import url("styles/dia-semana.css");
+@import url("styles/cards.css");
 
 :root{
     --cor-fundo: #E5E5E5;
+    --cor-fundo-card: #FFFFFF;
     --cor-fonte-primaria:#464646;
     --cor-fonte-secundaria:#A3A3A3;
     --fonte-principal: "Montserrat", sans-serif;
