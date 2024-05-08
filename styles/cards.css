@@ -82,3 +82,17 @@
     border-radius: 0.5em;
     border: 1px solid var(--cor-borda-botao-audio);
 }
+
+.botao__endereco{
+
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 0.75em;
+    background-color: var(--cor-botao-endereco);
+    padding: 1em 1em 1em 1em;
+    color: var(--cor-fonte-terciaria);
+    border-radius: 0.5em;
+    width: 100%;
+    text-align: center;
+
+}
