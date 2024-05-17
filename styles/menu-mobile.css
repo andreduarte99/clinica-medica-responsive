@@ -38,7 +38,7 @@
     right: 0%;
     cursor: pointer;
     width: 20%;
-    height: 100%;
+    height: 110%;
     background-image: url('../img/botao-flutuante.svg');
     background-size: cover;
     background-position: center;  
@@ -48,46 +48,58 @@
 
 }
 
-.botao__flutuante-imagem2{
-
-    cursor: pointer;
-    background-image: url('../img/botao-flutuante2.svg');
-    background-size: cover;
-    background-position: center;  
-    border: none;
-    outline: none;
-    background-color: transparent;
-    padding: 10px 20px;
-
-
-}
-
-.botao__flutuante-imagem3{
-    
-    cursor: pointer;
-    background-image: url('../img/botao-flutuante3.svg');
-    background-size: cover;
-    background-position: center;  
-    border: none;
-    outline: none;
-    background-color: transparent;
-    padding: 10px 20px;
-
-}
-
-
 .extra-buttons {
     position: fixed;
-    bottom: 80px;
-    right: 20px;
+    bottom: 14%;
+    right: 0px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s;
-    z-index: 20;
 }
+
+.extra-buttons button {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.extra-buttons button span {
+    background-color: white;
+    border: 0.1px groove var(--cor-fonte-primaria);
+    padding: 0.3em;
+    border-radius: 1em;
+    font-family: var(--fonte-principal);
+    font-size: 0.9em;
+    font-weight: 500;
+    color: var(--cor-fonte-primaria);
+    flex-shrink: 0; /* Impede o texto de encolher */
+    margin-right:5.5em;
+}
+
+.botao__flutuante-imagem2 {
+    background-image: url('../img/botao-flutuante2.svg');
+    background-size: cover;
+    background-position: center;
+    width: 6em; /* Ajuste a largura conforme necessário */
+    height: 6em; /* Ajuste a altura conforme necessário */
+}
+
+.botao__flutuante-imagem3 {
+    background-image: url('../img/botao-flutuante3.svg');
+    background-size: cover;
+    background-position: center;
+    width: 6em; /* Ajuste a largura conforme necessário */
+    height: 6em; /* Ajuste a altura conforme necessário */
+}
+
+
 
 
 .overlay {
