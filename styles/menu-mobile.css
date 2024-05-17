@@ -11,6 +11,7 @@
 .lista__menu-mobile{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .item__menu-mobile{
@@ -18,4 +19,94 @@
     flex-direction: column;
     align-items: center;
     gap: 5px;
+}
+
+.texto__menu-mobile{
+    font-family: var(--fonte-principal);
+    font-size: 0.9em;
+    color: var(--cor-fonte-primaria);
+}
+
+.link__menu-mobile{
+    text-decoration: none;
+    color: var(--cor-fonte-primaria);
+}
+
+.botao__flutuante-imagem{
+    position: absolute;
+    bottom: 100%;
+    right: 0%;
+    cursor: pointer;
+    width: 20%;
+    height: 100%;
+    background-image: url('../img/botao-flutuante.svg');
+    background-size: cover;
+    background-position: center;  
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.botao__flutuante-imagem2{
+
+    cursor: pointer;
+    background-image: url('../img/botao-flutuante2.svg');
+    background-size: cover;
+    background-position: center;  
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px 20px;
+
+
+}
+
+.botao__flutuante-imagem3{
+    
+    cursor: pointer;
+    background-image: url('../img/botao-flutuante3.svg');
+    background-size: cover;
+    background-position: center;  
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px 20px;
+
+}
+
+
+.extra-buttons {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s;
+    z-index: 20;
+}
+
+
+.overlay {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s;
+    z-index: 10;
+
+}
+
+
+.show-overlay {
+    opacity: 1;
+    visibility: visible;
 }
