@@ -1,6 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/dia-semana.css");
 @import url("styles/cards.css");
+@import url("styles/menu-mobile.css");
 
 :root{
     --cor-fundo: #E5E5E5;
@@ -12,9 +13,11 @@
     --cor-botao-audio: #FFFFFF;
     --cor-botao-endereco: #4894FF;
     --cor-borda-botao-audio: #ECECEC;
+    --cor-menu-mobile:#FFFFFF;
     --fonte-principal: "Montserrat", sans-serif;
 ;}
 
 body{
     background-color: var(--cor-fundo);
+    padding-bottom: 20%;
 }
