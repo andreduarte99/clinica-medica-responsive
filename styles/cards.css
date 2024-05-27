@@ -1,3 +1,11 @@
+.container__card-um, 
+    .container__card-dois, 
+    .container__card-tres{
+        display:flex;
+        flex-direction: column;
+}
+
+
 .card{
     background-color: #FFFFFF;
     display: flex;
@@ -100,6 +108,13 @@
 
 @media screen and (min-width: 768px){
 
+    .container__card-um, 
+    .container__card-dois, 
+    .container__card-tres{
 
+        display: flex;
+        flex-direction: row;
+    
+    }
     
 }
