@@ -23,7 +23,7 @@
 
 .texto__menu-mobile{
     font-family: var(--fonte-principal);
-    font-size: 0.9em;
+    font-size: 0.9rem;
     color: var(--cor-fonte-primaria);
 }
 
@@ -76,7 +76,7 @@
     padding: 0.3em;
     border-radius: 1em;
     font-family: var(--fonte-principal);
-    font-size: 0.9em;
+    font-size: 0.9rem;
     font-weight: 500;
     color: var(--cor-fonte-primaria);
     flex-shrink: 0; /* Impede o texto de encolher */
