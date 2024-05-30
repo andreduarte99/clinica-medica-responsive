@@ -24,3 +24,24 @@
     font-size: 0.9rem;
     color: var(--cor-fonte-secundaria);
 }
+
+
+@media screen and (min-width: 768px){
+
+    .cabecalho__container .foto__perfil-usuario{
+        width: 4.5em;
+        height: 4.5rem;
+    }
+
+    .titulo__perfil{
+        font-size: 1.25em;
+    }
+      
+    .notificacoes__perfil{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    
+}

@@ -122,3 +122,61 @@
     opacity: 1;
     visibility: visible;
 }
+
+
+@media screen and (min-width: 768px){
+    
+
+    .icone__menu-mobile-um{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .icone__menu-mobile-dois{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .icone__menu-mobile-tres{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .icone__menu-mobile-quatro{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .texto__menu-mobile{
+        font-size: 1rem;
+    }
+
+    .botao__flutuante-imagem{
+        width: 15%;
+        height: 150%;
+    }
+
+    .botao__flutuante-imagem2{
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+
+    .botao__flutuante-imagem3{
+        width: 6.5rem;
+        height: 6.5rem;
+    }   
+
+    .extra-buttons{
+        bottom: 17%;
+        right: 0.4rem;
+    }
+
+    .extra-buttons button span{
+        margin-right: 5.5rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    
+}

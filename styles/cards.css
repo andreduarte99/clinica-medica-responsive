@@ -33,6 +33,7 @@
     display:flex;
     flex-direction: column;
     margin-right: 4em;
+    gap: 0.2rem;
 }
 
 .nome__usuario{
@@ -114,7 +115,88 @@
 
         display: flex;
         flex-direction: row;
-    
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .card{
+        width: 40%;
+        margin: 2% 2% 2% 2%;
+        padding: 3% 3% 3% 3%;
+    }
+
+    .card__linha-um{
+        justify-content: flex-start;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .foto__perfil-usuario{
+        width: 2.8rem;
+        height: 2.8rem;
     }
     
+    .primeira__divisao-card{
+        margin-right: 4rem;
+        gap: 0.2rem;
+    } 
+
+
+    .nome__usuario{
+        font-size: 1rem;
+    }
+
+    .icone__chamada{
+        width: 12%;
+        height:12%;
+    }
+
+    .titulo__consulta{
+        font-size: 0.78rem;
+    }
+
+    .icone__mensagem{
+        width: 2.2rem;
+        height: 2.4rem;
+    }
+
+    .horarios__chamada{
+        font-size: 0.78rem;
+    }
+
+
+    .botao__endereco{
+        font-size: 0.85rem;
+    }
+
+    .botao__video{
+        font-size: 0.85rem;
+        padding: 1em 0.80em 1em 0.80em;
+    }
+
+    .botao__audio{
+        font-size: 0.85rem;
+        padding: 1em 0.80em 1em 0.80em;
+    }
 }
+
+@media screen and (min-width: 1024px){
+    
+    .card{
+        padding: 3% 3% 3% 3%;
+    }
+
+    .botao__endereco{
+        width: 75%;
+    }
+
+    .card__linha-um{
+        padding-left: 10%;
+    }
+
+    .card__linha-dois{  
+        padding-left: 10%;
+    }
+}
+
