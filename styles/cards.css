@@ -200,3 +200,38 @@
     }
 }
 
+@media screen and (min-width: 1728px){
+    
+
+    .foto__perfil-usuario{
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+
+    .container__card-um, 
+    .container__card-dois, 
+    .container__card-tres{
+
+    justify-content: space-between;
+    padding-left: 5%;
+}
+    
+    .card{
+        width: 25.3%;
+        padding: 2% 2% 2% 2%;
+    }
+
+    .botao__endereco{
+        width: 85%
+    }
+
+    .card__linha-um{
+        padding-left: 6%;
+    }
+
+    .card__linha-dois{  
+        padding-left: 6%;
+    }
+}
+
+

@@ -42,6 +42,19 @@
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1728px){
     
+    .cabecalho__container .foto__perfil-usuario{
+
+        width: 4.8rem;
+        height: 4.8rem;
+    }
+
+    .titulo__perfil{
+        font-size: 1.28rem;
+    }
+
+    .notificacoes__perfil{
+        font-size: 1.2rem;
+    }
 }

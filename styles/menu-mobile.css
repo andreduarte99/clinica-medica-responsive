@@ -177,6 +177,9 @@
 
 }
 
-@media screen and (min-width: 1024px){
-    
+@media screen and (min-width: 1728px){
+    .botao__flutuante-imagem{
+        display: none;
+
+    }
 }
