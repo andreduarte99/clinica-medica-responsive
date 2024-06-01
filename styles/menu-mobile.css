@@ -177,6 +177,33 @@
 
 }
 
+
+@media screen and (min-width: 1024px){
+
+    .botao__flutuante-imagem2{
+
+        width: 9rem;
+        height: 9rem;
+
+    }
+
+    .botao__flutuante-imagem3{
+
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .extra-buttons{
+        right: .2rem;
+    }
+
+    .extra-buttons button span{
+        margin-right: 8rem;
+    }
+}
+
+
+
 @media screen and (min-width: 1728px){
     .botao__flutuante-imagem{
         display: none;
