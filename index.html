@@ -14,342 +14,348 @@
 </head>
 <body>
 
-    <header class="cabecalho__container">
-        <img class="foto__perfil-usuario" src="./img/perfil-med.svg" alt="Foto de perfil do médico">
-            <div class="dados__medico">
-                <h1 class="titulo__perfil">Olá, Sônia</h1>
-                <p class="notificacoes__perfil">Mais 4 consultas hoje</p>
-            </div>
-    </header>
-
-    <nav class="container__menu-mobile">
-        <ul class="lista__menu-mobile">
-            
-            <div class="item__menu-mobile">
-                <img class="icone__menu-mobile-um" src="img/Calendarioicone.svg" alt="Ícone calendario">
-                <li class="texto__menu-mobile"><a href="#" class="link__menu-mobile">Consultas</a></li>
-            </div>
-
-            <div class="item__menu-mobile">
-                <img class="icone__menu-mobile-dois" src="img/clientes icone.svg" alt="Ícone clientes">
-                <li class="texto__menu-mobile"><a href="#" class="link__menu-mobile">Clientes</a></li>
-            </div>
-
-            <div class="item__menu-mobile">
-                <img class="icone__menu-mobile-tres" src="img/relatorios icone.svg" alt="Ícone relatórios">
-                <li class="texto__menu-mobile"><a href="#" class="link__menu-mobile">Relatórios</a></li>
-            </div>
-            
-            <div class="item__menu-mobile">
-                <img class="icone__menu-mobile-quatro" src="img/menu icone.svg" alt="Ícone menu">
-                <li class="texto__menu-mobile"><a href="#" class="link__menu-mobile">Menu</a></li>
-            </div>
-
-        </ul>
-
-        <button class="botao__flutuante-imagem"></button>
-
-        <div class="overlay" id="overlay"></div>
-
+    <div class="container__principal">
         
+        <div class="container__menu">
+            <nav class="container__menu-mobile">
+                <ul class="lista__menu-mobile">
+                    
+                    <div class="item__menu-mobile">
+                        <img class="icone__menu-mobile-um" src="img/Calendarioicone.svg" alt="Ícone calendario">
+                        <li class="texto__menu-mobile"><a href="#" class="link__menu-mobile">Consultas</a></li>
+                    </div>
 
-    </nav>
+                    <div class="item__menu-mobile">
+                        <img class="icone__menu-mobile-dois" src="img/clientes icone.svg" alt="Ícone clientes">
+                        <li class="texto__menu-mobile"><a href="#" class="link__menu-mobile">Clientes</a></li>
+                    </div>
 
-    <div class="extra-buttons" id="extra-buttons">
+                    <div class="item__menu-mobile">
+                        <img class="icone__menu-mobile-tres" src="img/relatorios icone.svg" alt="Ícone relatórios">
+                        <li class="texto__menu-mobile"><a href="#" class="link__menu-mobile">Relatórios</a></li>
+                    </div>
+                    
+                    <div class="item__menu-mobile">
+                        <img class="icone__menu-mobile-quatro" src="img/menu icone.svg" alt="Ícone menu">
+                        <li class="texto__menu-mobile"><a href="#" class="link__menu-mobile">Menu</a></li>
+                    </div>
 
-        <button class="botao__flutuante-imagem2" id="home-visit">
-            <span>Nova consulta na casa do paciente</span>
-        </button>
-        <button class="botao__flutuante-imagem3" id="video-consultation">
-            <span>Nova consulta por vídeo</span>
-        </button>
+                </ul>
+        
+                <button class="botao__flutuante-imagem"></button>
 
+                <div class="overlay" id="overlay"></div>
+
+                
+
+            </nav>
+        </div>
+
+        <div class="container__conteudo">
+            <header class="cabecalho__container">
+                <img class="foto__perfil-usuario" src="./img/perfil-med.svg" alt="Foto de perfil do médico">
+                    <div class="dados__medico">
+                        <h1 class="titulo__perfil">Olá, Sônia</h1>
+                        <p class="notificacoes__perfil">Mais 4 consultas hoje</p>
+                    </div>
+            </header>
+
+            <div class="extra-buttons" id="extra-buttons">
+
+                <button class="botao__flutuante-imagem2" id="home-visit">
+                    <span>Nova consulta na casa do paciente</span>
+                </button>
+                <button class="botao__flutuante-imagem3" id="video-consultation">
+                    <span>Nova consulta por vídeo</span>
+                </button>
+
+            </div>
+
+
+            <section class="container__dia-semana">
+                <h2 class="titulo__dia-semana">Hoje</h2>        
+            </section>
+
+            <section class="container__card-um">
+
+                    <div class="card">
+
+                        <div class="card__linha-um">
+                            <img class="foto__perfil-usuario" src="./img/perfil-luciana.svg" alt="foto de perfil Luciana">
+                            <div class="primeira__divisao-card">
+                                <h3 class="nome__usuario">Luciana Dias</h3>
+                                <div class="segunda__divisao-card">
+                                    <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
+                                    <p class="titulo__consulta">Consulta remota</p>
+                                </div>
+                            </div>
+                            <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
+                        </div>
+
+                        <div class="card__linha-dois">
+                            <p class="horarios__chamada">14:00 - 15:00 (1 hora)</p>
+                            <div class="botoes__chamada">
+                                <a class="botao__video">Ligar por vídeo</a> 
+                                <a class="botao__audio">Ligar por áudio</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card__linha-um">
+                            <img class="foto__perfil-usuario" src="./img/perfil-larissa.svg" alt="foto de perfil Luciana">
+                            <div class="primeira__divisao-card">
+                                <h3 class="nome__usuario">Larissa Santana</h3>
+                                <div class="segunda__divisao-card">
+                                    <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
+                                    <p class="titulo__consulta">Consulta no local</p>
+                                </div>
+                            </div>
+                            <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
+                        </div>
+
+                        <div class="card__linha-dois">
+                            <p class="horarios__chamada">16:00 - 17:00 (1 hora)</p>
+                            <div class="botoes__chamada">
+                                <a class="botao__endereco">Ver endereço</a> 
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card__linha-um">
+                            <img class="foto__perfil-usuario" src="./img/perfil-marcos.svg" alt="foto de perfil Luciana">
+                            <div class="primeira__divisao-card">
+                                <h3 class="nome__usuario">Marcos Correia</h3>
+                                <div class="segunda__divisao-card">
+                                    <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
+                                    <p class="titulo__consulta">Consulta remota</p>
+                                </div>
+                            </div>
+                            <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
+                        </div>
+
+                        <div class="card__linha-dois">
+                            <p class="horarios__chamada">17:20 - 18:00 (40 minutos)</p>
+                            <div class="botoes__chamada">
+                                <a class="botao__video">Ligar por vídeo</a> 
+                                <a class="botao__audio">Ligar por áudio</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+            </section>
+
+            <section class="container__dia-semana">
+                <h2 class="titulo__dia-semana">Amanhã</h2>        
+            </section>
+
+            <section class="container__card-dois">
+
+                    <div class="card">
+
+                        <div class="card__linha-um">
+                            <img class="foto__perfil-usuario" src="./img/perfil-clara.svg" alt="foto de perfil Luciana">
+                            <div class="primeira__divisao-card">
+                                <h3 class="nome__usuario">Clara Lemos</h3>
+                                <div class="segunda__divisao-card">
+                                    <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
+                                    <p class="titulo__consulta">Consulta no local</p>
+                                </div>
+                            </div>
+                            <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
+                        </div>
+
+                        <div class="card__linha-dois">
+                            <p class="horarios__chamada">18:00 - 19:00 (1 hora)</p>
+                            <div class="botoes__chamada">
+                                <a class="botao__endereco">Ver endereço</a> 
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card__linha-um">
+                            <img class="foto__perfil-usuario" src="./img/perfil-luciana.svg" alt="foto de perfil Luciana">
+                            <div class="primeira__divisao-card">
+                                <h3 class="nome__usuario">Luciana Dias</h3>
+                                <div class="segunda__divisao-card">
+                                    <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
+                                    <p class="titulo__consulta">Consulta remota</p>
+                                </div>
+                            </div>
+                            <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
+                        </div>
+
+                        <div class="card__linha-dois">
+                            <p class="horarios__chamada">14:00 - 15:00 (1 hora)</p>
+                            <div class="botoes__chamada">
+                                <a class="botao__video">Ligar por vídeo</a> 
+                                <a class="botao__audio">Ligar por áudio</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card__linha-um">
+                            <img class="foto__perfil-usuario" src="./img/perfil-marcos.svg" alt="foto de perfil Luciana">
+                            <div class="primeira__divisao-card">
+                                <h3 class="nome__usuario">Marcos Correia</h3>
+                                <div class="segunda__divisao-card">
+                                    <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
+                                    <p class="titulo__consulta">Consulta remota</p>
+                                </div>
+                            </div>
+                            <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
+                        </div>
+
+                        <div class="card__linha-dois">
+                            <p class="horarios__chamada">17:20 - 18:00 (40 minutos)</p>
+                            <div class="botoes__chamada">
+                                <a class="botao__video">Ligar por vídeo</a> 
+                                <a class="botao__audio">Ligar por áudio</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card__linha-um">
+                            <img class="foto__perfil-usuario" src="./img/perfil-larissa.svg" alt="foto de perfil Luciana">
+                            <div class="primeira__divisao-card">
+                                <h3 class="nome__usuario">Larissa Santana</h3>
+                                <div class="segunda__divisao-card">
+                                    <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
+                                    <p class="titulo__consulta">Consulta no local</p>
+                                </div>
+                            </div>
+                            <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
+                        </div>
+
+                        <div class="card__linha-dois">
+                            <p class="horarios__chamada">16:00 - 17:00 (1 hora)</p>
+                            <div class="botoes__chamada">
+                                <a class="botao__endereco">Ver endereço</a> 
+                            </div>
+                        </div>
+                        
+                    </div>
+
+            </section>
+
+            <section class="container__dia-semana">
+                <h2 class="titulo__dia-semana">Quarta-feira</h2>        
+            </section>
+
+            <section class="container__card-tres">
+
+                    <div class="card">
+
+                        <div class="card__linha-um">
+                            <img class="foto__perfil-usuario" src="./img/perfil-clara.svg" alt="foto de perfil Luciana">
+                            <div class="primeira__divisao-card">
+                                <h3 class="nome__usuario">Clara Lemos</h3>
+                                <div class="segunda__divisao-card">
+                                    <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
+                                    <p class="titulo__consulta">Consulta no local</p>
+                                </div>
+                            </div>
+                            <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
+                        </div>
+
+                        <div class="card__linha-dois">
+                            <p class="horarios__chamada">18:00 - 19:00 (1 hora)</p>
+                            <div class="botoes__chamada">
+                                <a class="botao__endereco">Ver endereço</a> 
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card__linha-um">
+                            <img class="foto__perfil-usuario" src="./img/perfil-luciana.svg" alt="foto de perfil Luciana">
+                            <div class="primeira__divisao-card">
+                                <h3 class="nome__usuario">Luciana Dias</h3>
+                                <div class="segunda__divisao-card">
+                                    <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
+                                    <p class="titulo__consulta">Consulta remota</p>
+                                </div>
+                            </div>
+                            <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
+                        </div>
+
+                        <div class="card__linha-dois">
+                            <p class="horarios__chamada">14:00 - 15:00 (1 hora)</p>
+                            <div class="botoes__chamada">
+                                <a class="botao__video">Ligar por vídeo</a> 
+                                <a class="botao__audio">Ligar por áudio</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card__linha-um">
+                            <img class="foto__perfil-usuario" src="./img/perfil-marcos.svg" alt="foto de perfil Luciana">
+                            <div class="primeira__divisao-card">
+                                <h3 class="nome__usuario">Marcos Correia</h3>
+                                <div class="segunda__divisao-card">
+                                    <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
+                                    <p class="titulo__consulta">Consulta remota</p>
+                                </div>
+                            </div>
+                            <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
+                        </div>
+
+                        <div class="card__linha-dois">
+                            <p class="horarios__chamada">17:20 - 18:00 (40 minutos)</p>
+                            <div class="botoes__chamada">
+                                <a class="botao__video">Ligar por vídeo</a> 
+                                <a class="botao__audio">Ligar por áudio</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card__linha-um">
+                            <img class="foto__perfil-usuario" src="./img/perfil-larissa.svg" alt="foto de perfil Luciana">
+                            <div class="primeira__divisao-card">
+                                <h3 class="nome__usuario">Larissa Santana</h3>
+                                <div class="segunda__divisao-card">
+                                    <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
+                                    <p class="titulo__consulta">Consulta no local</p>
+                                </div>
+                            </div>
+                            <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
+                        </div>
+
+                        <div class="card__linha-dois">
+                            <p class="horarios__chamada">16:00 - 17:00 (1 hora)</p>
+                            <div class="botoes__chamada">
+                                <a class="botao__endereco">Ver endereço</a> 
+                            </div>
+                        </div>
+                        
+                    </div>
+
+            </section>
+        </div>
     </div>
-
-
-    <section class="container__dia-semana">
-        <h2 class="titulo__dia-semana">Hoje</h2>        
-    </section>
-
-    <section class="container__card-um">
-
-            <div class="card">
-
-                <div class="card__linha-um">
-                    <img class="foto__perfil-usuario" src="./img/perfil-luciana.svg" alt="foto de perfil Luciana">
-                    <div class="primeira__divisao-card">
-                        <h3 class="nome__usuario">Luciana Dias</h3>
-                        <div class="segunda__divisao-card">
-                            <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
-                            <p class="titulo__consulta">Consulta remota</p>
-                        </div>
-                    </div>
-                    <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
-                </div>
-
-                <div class="card__linha-dois">
-                    <p class="horarios__chamada">14:00 - 15:00 (1 hora)</p>
-                    <div class="botoes__chamada">
-                        <a class="botao__video">Ligar por vídeo</a> 
-                        <a class="botao__audio">Ligar por áudio</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="card__linha-um">
-                    <img class="foto__perfil-usuario" src="./img/perfil-larissa.svg" alt="foto de perfil Luciana">
-                    <div class="primeira__divisao-card">
-                        <h3 class="nome__usuario">Larissa Santana</h3>
-                        <div class="segunda__divisao-card">
-                            <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
-                            <p class="titulo__consulta">Consulta no local</p>
-                        </div>
-                    </div>
-                    <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
-                </div>
-
-                <div class="card__linha-dois">
-                    <p class="horarios__chamada">16:00 - 17:00 (1 hora)</p>
-                    <div class="botoes__chamada">
-                        <a class="botao__endereco">Ver endereço</a> 
-                    </div>
-                </div>
-                
-            </div>
-
-            <div class="card">
-
-                <div class="card__linha-um">
-                    <img class="foto__perfil-usuario" src="./img/perfil-marcos.svg" alt="foto de perfil Luciana">
-                    <div class="primeira__divisao-card">
-                        <h3 class="nome__usuario">Marcos Correia</h3>
-                        <div class="segunda__divisao-card">
-                            <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
-                            <p class="titulo__consulta">Consulta remota</p>
-                        </div>
-                    </div>
-                    <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
-                </div>
-
-                <div class="card__linha-dois">
-                    <p class="horarios__chamada">17:20 - 18:00 (40 minutos)</p>
-                    <div class="botoes__chamada">
-                        <a class="botao__video">Ligar por vídeo</a> 
-                        <a class="botao__audio">Ligar por áudio</a>
-                    </div>
-                </div>
-
-            </div>
-
-    </section>
-
-    <section class="container__dia-semana">
-        <h2 class="titulo__dia-semana">Amanhã</h2>        
-    </section>
-
-    <section class="container__card-dois">
-
-            <div class="card">
-
-                <div class="card__linha-um">
-                    <img class="foto__perfil-usuario" src="./img/perfil-clara.svg" alt="foto de perfil Luciana">
-                    <div class="primeira__divisao-card">
-                        <h3 class="nome__usuario">Clara Lemos</h3>
-                        <div class="segunda__divisao-card">
-                            <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
-                            <p class="titulo__consulta">Consulta no local</p>
-                        </div>
-                    </div>
-                    <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
-                </div>
-
-                <div class="card__linha-dois">
-                    <p class="horarios__chamada">18:00 - 19:00 (1 hora)</p>
-                    <div class="botoes__chamada">
-                        <a class="botao__endereco">Ver endereço</a> 
-                    </div>
-                </div>
-                
-            </div>
-
-            <div class="card">
-
-                <div class="card__linha-um">
-                    <img class="foto__perfil-usuario" src="./img/perfil-luciana.svg" alt="foto de perfil Luciana">
-                    <div class="primeira__divisao-card">
-                        <h3 class="nome__usuario">Luciana Dias</h3>
-                        <div class="segunda__divisao-card">
-                            <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
-                            <p class="titulo__consulta">Consulta remota</p>
-                        </div>
-                    </div>
-                    <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
-                </div>
-
-                <div class="card__linha-dois">
-                    <p class="horarios__chamada">14:00 - 15:00 (1 hora)</p>
-                    <div class="botoes__chamada">
-                        <a class="botao__video">Ligar por vídeo</a> 
-                        <a class="botao__audio">Ligar por áudio</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="card__linha-um">
-                    <img class="foto__perfil-usuario" src="./img/perfil-marcos.svg" alt="foto de perfil Luciana">
-                    <div class="primeira__divisao-card">
-                        <h3 class="nome__usuario">Marcos Correia</h3>
-                        <div class="segunda__divisao-card">
-                            <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
-                            <p class="titulo__consulta">Consulta remota</p>
-                        </div>
-                    </div>
-                    <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
-                </div>
-
-                <div class="card__linha-dois">
-                    <p class="horarios__chamada">17:20 - 18:00 (40 minutos)</p>
-                    <div class="botoes__chamada">
-                        <a class="botao__video">Ligar por vídeo</a> 
-                        <a class="botao__audio">Ligar por áudio</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="card__linha-um">
-                    <img class="foto__perfil-usuario" src="./img/perfil-larissa.svg" alt="foto de perfil Luciana">
-                    <div class="primeira__divisao-card">
-                        <h3 class="nome__usuario">Larissa Santana</h3>
-                        <div class="segunda__divisao-card">
-                            <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
-                            <p class="titulo__consulta">Consulta no local</p>
-                        </div>
-                    </div>
-                    <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
-                </div>
-
-                <div class="card__linha-dois">
-                    <p class="horarios__chamada">16:00 - 17:00 (1 hora)</p>
-                    <div class="botoes__chamada">
-                        <a class="botao__endereco">Ver endereço</a> 
-                    </div>
-                </div>
-                
-            </div>
-
-    </section>
-
-    <section class="container__dia-semana">
-        <h2 class="titulo__dia-semana">Quarta-feira</h2>        
-    </section>
-
-    <section class="container__card-tres">
-
-            <div class="card">
-
-                <div class="card__linha-um">
-                    <img class="foto__perfil-usuario" src="./img/perfil-clara.svg" alt="foto de perfil Luciana">
-                    <div class="primeira__divisao-card">
-                        <h3 class="nome__usuario">Clara Lemos</h3>
-                        <div class="segunda__divisao-card">
-                            <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
-                            <p class="titulo__consulta">Consulta no local</p>
-                        </div>
-                    </div>
-                    <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
-                </div>
-
-                <div class="card__linha-dois">
-                    <p class="horarios__chamada">18:00 - 19:00 (1 hora)</p>
-                    <div class="botoes__chamada">
-                        <a class="botao__endereco">Ver endereço</a> 
-                    </div>
-                </div>
-                
-            </div>
-
-            <div class="card">
-
-                <div class="card__linha-um">
-                    <img class="foto__perfil-usuario" src="./img/perfil-luciana.svg" alt="foto de perfil Luciana">
-                    <div class="primeira__divisao-card">
-                        <h3 class="nome__usuario">Luciana Dias</h3>
-                        <div class="segunda__divisao-card">
-                            <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
-                            <p class="titulo__consulta">Consulta remota</p>
-                        </div>
-                    </div>
-                    <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
-                </div>
-
-                <div class="card__linha-dois">
-                    <p class="horarios__chamada">14:00 - 15:00 (1 hora)</p>
-                    <div class="botoes__chamada">
-                        <a class="botao__video">Ligar por vídeo</a> 
-                        <a class="botao__audio">Ligar por áudio</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="card__linha-um">
-                    <img class="foto__perfil-usuario" src="./img/perfil-marcos.svg" alt="foto de perfil Luciana">
-                    <div class="primeira__divisao-card">
-                        <h3 class="nome__usuario">Marcos Correia</h3>
-                        <div class="segunda__divisao-card">
-                            <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
-                            <p class="titulo__consulta">Consulta remota</p>
-                        </div>
-                    </div>
-                    <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
-                </div>
-
-                <div class="card__linha-dois">
-                    <p class="horarios__chamada">17:20 - 18:00 (40 minutos)</p>
-                    <div class="botoes__chamada">
-                        <a class="botao__video">Ligar por vídeo</a> 
-                        <a class="botao__audio">Ligar por áudio</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="card__linha-um">
-                    <img class="foto__perfil-usuario" src="./img/perfil-larissa.svg" alt="foto de perfil Luciana">
-                    <div class="primeira__divisao-card">
-                        <h3 class="nome__usuario">Larissa Santana</h3>
-                        <div class="segunda__divisao-card">
-                            <img class="icone__chamada" src="./img/camera.svg" alt="ícone chamada">
-                            <p class="titulo__consulta">Consulta no local</p>
-                        </div>
-                    </div>
-                    <img class="icone__mensagem" src="./img/chat-circulo.svg" alt="ícone chat">
-                </div>
-
-                <div class="card__linha-dois">
-                    <p class="horarios__chamada">16:00 - 17:00 (1 hora)</p>
-                    <div class="botoes__chamada">
-                        <a class="botao__endereco">Ver endereço</a> 
-                    </div>
-                </div>
-                
-            </div>
-
-    </section>
-
     <script src="script.js"></script>
 
 </body>
