@@ -13,3 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
         extraButtons.classList.remove('show-overlay');
     });
 });
+
+document.querySelectorAll('.item__menu-mobile').forEach(item => {
+    item.addEventListener('click', function() {
+        document.querySelectorAll('.item__menu-mobile').forEach(el => el.classList.remove('active'));
+        this.classList.add('active');
+    });
+});
