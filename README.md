@@ -6,12 +6,13 @@ Projeto em HTML e CSS clinica-medica-responsive. 7 Days of Code de Responsividad
 | -------------  | --- |
 | :sparkles: Nome        | **Clinica-medica-responsive**
 | :label: Tecnologias | HTML e CSS.
-| :rocket: URL         | https://andreduarte99.github.io/optimustech/
+| :rocket: URL         | https://andreduarte99.github.io/clinica-medica-responsive
 | :fire: Desafio     | https://7daysofcode.io/matricula/responsividade
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 
-![Captura de tela de 2024-04-29 21-15-04](https://github.com/andreduarte99/optimustech/assets/42449246/cb8f96ef-5186-40c6-a6fc-a6035d3a438c#vitrinedev)
+![Captura de tela de 2024-06-14 23-40-54](https://github.com/andreduarte99/clinica-medica-responsive/assets/42449246/57b10d31-1d04-4f91-8567-959b543d9be9#vitrinedev)
+
 
 ## Detalhes do projeto
 
