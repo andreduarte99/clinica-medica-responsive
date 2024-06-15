@@ -1,0 +1,101 @@
+.container__formulario{
+   display:none;
+}
+
+
+@media screen and (min-width: 768px){
+    
+    .container__formulario{
+        display:none
+    }
+}
+
+@media screen and (min-width: 1728px){
+    
+    .container__formulario{
+        margin-top: 10%;
+        margin-left: 50%;
+        display: block;
+    }
+
+    form{
+        font-family: var(--fonte-principal);
+        font-size: 1.5rem;
+        background-color:  var(--cor-fundo-card);
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        gap: 2rem;
+        border-radius: 1rem;
+    }
+
+    #titulo{
+        font-family: var(--fonte-principal);
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .grupo{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .campo input[type="text"]{
+        width: 90%;
+        padding: 1.3rem 0.5rem 1.5rem 0.3rem;
+    }
+
+    .campo input[type="text"], .campo select, .campo textarea{
+        border: 2px solid black;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+        display:block;
+        margin-top: 1rem;
+        font-family: var(--fonte-principal);
+        font-size: 1.0rem;
+    }
+
+    .campo select option{
+        padding-left: 1rem;
+    }
+
+    .campo input:focus, .campo select:focus, .campo textarea:focus{
+        background: whitesmoke;
+    }
+
+    #data-consulta{
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        background-color: whitesmoke;
+    }
+
+    option{
+        background-color: whitesmoke;
+    }
+
+    input[type="checkbox"]{
+        
+    }
+
+    #observacoes{
+        width: 90%;
+        padding: 1.5rem 1rem 1.5rem 1rem;
+    }
+    .botao{
+        font-family: var(--fonte-principal);
+        font-weight: 500;
+        font-size: 1rem;
+        background-color: var(--cor-botao-endereco);
+        padding: 1em 1em 1em 1em;
+        color: var(--cor-fonte-terciaria);
+        border-radius: 0.5em;
+        width: 20%;
+        text-align: center;
+        margin-left: 40%;
+    }
+
+
+
+}
